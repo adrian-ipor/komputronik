@@ -1,0 +1,13 @@
+
+stores:
+  - name: komputronik.pl
+    banner_prefix: https://static.komputronik.pl/banners/
+    time_sleep: 3
+    store_url: https://www.komputronik.pl/
+    banners_output: /home/askawinski/PycharmProjects/komputronik/tmp/banners
+    css_selector: basis-[18rem] hover-blue new-product-index-
+    cookies_except_id: onetrust-accept-btn-handler
+    product_tiles_output: /home/askawinski/PycharmProjects/komputronik/tmp/product_tiles
+    set_window_size:
+      width: 10000
+      height: 10000
